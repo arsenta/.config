@@ -63,11 +63,14 @@ else
 fi
 unset color_prompt force_color_prompt
 
+#original colour scheme
+#PS1='${debian_chroot:+($debian_chroot)}\[\033[00;31m\][\[\033[00m\]\[\033[01;33m\]\u\[\033[00m\]\[\033[01;32m\]@\[\033[00m\]\[\033[01;38m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[00;31m\]]\[\033[00m\]\$ '
 #Luke smith's zsh colour scheme
 #PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-#Kenny's bashrc colour scheme
+#Kenny's void bashrc colour scheme
 #PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
-
+#Kenny's gentoo bashrc colour scheme
+#PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
